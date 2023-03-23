@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linglee</title>
+<link rel="stylesheet" href="CSS-Dashboard/linglee.css">
+<!-- Adding favicon to title bar-->
+<link rel="short cut icon" type="image/png" href="images/favicon.ico">
+    </head>
+
+    <body>
+
+       <main>
+        <!-- Navbar -->
+        <navbar class = "dashboard">Dashboard
+            <div class="search-bar"><input type="text" placeholder="Search"></div>
+            <div class="date"><time datetime="YYYY-MM-DD">19 Mar 2023, Sunday</time></div>
+            </navbar>
+        <!-- Left Sidebar-->
+        <aside class = "left-sidebar"><img class="letter-l" src="images/letter-l.png" alt="Letter L" width="30px"><h3 class="linglee">Linglee</h3>
+          <div class ="options"><img class="layout" src="images/layout.png" alt="Layout" width="20px">Dashboard</div>
+            <div class ="options"><img class="classes" src="images/folder.png" alt="Folder" width="20px">Classes</div>
+            <div class ="options"><img class="resources" src="images/book.png" alt="Book" width="20px">Resources</div>
+            <div class ="options"><img class="Learning-plan" src="images/calendar.png" alt="Calendar" width="20px">Learning Plan</div>
+            <div class ="options"><img class="chat" src="images/chat.png" alt="Chat" width="20px">Chat</div>
+            <div class ="options"><img class="settings" src="images/setting.png" alt="Setting" width="20px">Settings</div>
+            <div class="upgrade">Upgrade to <b>PRO</b>for more resources.<br>
+                <button class="btn-upgrade" type="button">Upgrade</button></div>
+        </aside>
+        <!-- Right Sidebar-->
+        <aside class = "right-sidebar">Logout 
+          <div class="logout-btn"><button class="btn-logout" type="button">Click</button></div>
+          <div class="profile"><form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+          </form><h4>Jayeeta Dutta</h4>Student</div>
+          <div class="eng-spa">
+            <div class="english"><b>English</b><br>High intermediate</div>
+            <div class="spanish"><b>Spanish</b><br>Advanced</div>
+          </div>
+          <div class="reminder"><b>Reminder</b><button class="btn-reminder" type="button">bell</button>
+            <div class="reminder1">Eng - Vocabulary test<br>24 Sep 2018, Friday</div>
+            <div class="reminder2">Eng - Send grammar homework<br>29 Sep 2019, Wednesday</div>
+            <div class="reminder3">Spanish - Send essay<br>05 Oct 2019, Monday</div>
+          </div>
+        </aside>
+        <div class="welcome"><h3 class="header">Welcome Back Jayeeta!</h3>
+            <p class="message">You've leant 80% of your goal this week! <br>Keep it up and improve your results!</p>
+            <!-- <img class="study" src="https://static.vecteezy.com/system/resources/previews/002/889/974/original/cute-fox-study-with-laptop-cartoon-icon-illustration-free-vector.jpg" alt="study"> -->
+        </div>
+        <!-- Content1-->
+        <article class= "content1">Latest results <div class="more">More</div>
+          <!--Progress Bars-->
+            <div class="container"><b>Unit 5 -</b> Technology<hr class="hr"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    25% 
+                  </div>
+              <div class="container"><b>Unit 12 -</b> Ecology <hr class="hr"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="44" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    44%
+                  </div>
+              <div class="container"><b>Unit 9 -</b> Real estate <hr class="hr"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    40%
+                  </div>
+              <div class="container"><b>Unit 8 -</b> Education <hr class="hr"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    15%
+                  </div>
+              <div class="container"><b>Unit 16 -</b> Job market</div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    76%
+                  </div>
+              <!-- <div class="progress" style="height: 20px;"> ABC</div>
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div> -->
+              
+        </article>
+        <!--Content2-->
+        <article class ="content2">Time spent on learning
+          <div class="learning">
+            <label for="learning spent"></label>
+            <select name="learning spent" id="learning spent">
+            <option value="this week">This week</option>
+            <option value="last week">Last week</option>
+            <option value="last month">Last month</option>
+            <option value="today">Today</option>
+            </select>
+          </div>
+          </article>
+        <!--Subjects-->
+        <div class="courses">Your Courses <div class="more-courses">More</div>
+            <div class="grammar">Grammar</div>
+            <div class="phrasal-verbs">Phrasal Verbs</div>
+            <div class="vocabulary">Vocabulary</div>
+        </div>
+            
+       </main>
+
+        
+        
+
+
+    </body>
+</html>
